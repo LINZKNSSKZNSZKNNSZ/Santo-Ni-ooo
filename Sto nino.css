@@ -1,0 +1,239 @@
+	body{
+		margin: 0;
+		padding: 0;
+		background-color: #eeeeee;
+		font-family: Arial;
+} 
+	.discover{
+		color: gray;
+		font-size: 100px; 
+		display: flex;
+		justify-content: center;
+		margin: 0; 
+		margin-top: 20px; 
+	} 
+
+	header{
+		color: white; 
+		margin: 15px; 
+		font-size: 100px; 
+		display: flex;
+		align-items: center; 
+		justify-content: center;
+		overflow: hidden; 
+		height: 350px;
+		width: 100%; 
+		position: relative; 
+		margin-top: 0;
+		margin-bottom: 0; 
+		box-shadow: 0 10px 10px gray; 
+		transition: all 0.3s ease-out;
+} 
+	header::before{
+		width: 100%;
+		height: 100%;
+		position: absolute; 
+		background-image: url('https://i0.wp.com/vinnenroute.net/wp-content/uploads/2021/01/The-Basilica-1024x682.jpg?resize=520%2C346');
+		background-position: center;
+		filter: blur(5px); 
+		content: ""; 
+		top: 0;
+		left: 0;
+		overflow: hidden; 
+		background-size: cover;
+		z-index: -1;
+	}
+	header:hover{
+		height: 550px; 
+		transition: all 0.3s ease;
+	} 
+	.mainholder{
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 0;
+} 
+	.About, .history, .more, .news{
+		margin: 25px;
+		padding: 10px; 
+		box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); 
+		transition: all 0.5s ease-out;
+		overflow: hidden;
+		border-radius: 15px;
+		position: relative;
+		color: white; 
+		font-size: 20px;
+		background-position: center; 
+}
+	.About:hover p, .history:hover p, .news:hover p, .more:hover p{
+		transition: all 0.5s ease-out; 
+		position: relative;
+		z-index: 2;
+		margin: 0; 
+	}
+	.About p, .history p, .news p, .more p{
+		transition: all 0.5s ease-out; 
+		position: relative;
+		z-index: 2;
+		margin: 0;
+	}
+		
+	.About:hover , .history:hover , .news:hover , .more:hover {
+		transform: scale(1.1);
+		transition: all 0.5s ease-out; 
+	}
+	.About {
+		height:700px;
+		width: 350px;	
+}
+
+	.About::before {			
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url('https://gttp.images.tshiftcdn.com/223482/x/0/cebu-cebu-city-sinulog-festival-erwinlim-20191227.jpg?ar=1.91%3A1&w=1200&fit=crop');
+		background-position: center;
+		filter: blur(5px); 
+		content: "";
+
+}
+
+	.About h1 {
+		position: relative; 
+		z-index: 2; 
+		margin: 0;
+}
+	.About p{
+		transform: translateY(1000px); 
+}
+		
+	.About:hover p{
+		transform: translateY(0); 
+} 
+	.history{ 
+		height: 325px;
+		width: 750px;
+} 
+
+	.history::before {			
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url('https://queencitycebu.com/wp-content/uploads/2017/01/Sinulog-1.jpg');
+		filter: blur(5px); 
+		content: "";
+		z-index: 1;
+}
+	.history h1 {
+		position: relative; 
+		z-index: 2; 
+		margin: 0;
+}
+	.history p{
+		position: relative;
+		z-index: 2;
+		margin: 0;
+		transform: translateX(1000px); 
+		transition: all 1s ease-in-out; 
+}
+	.history:hover p{
+		transition: all 0.5s ease-in-out; 
+		transform: translateX(0); 
+} 	
+	.more{ 
+		height: 325px;
+		width: 750px;
+} 
+
+	.more::before {			
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url('https://www.regent-holidays.co.uk/upload-files/blog-sections/section-327_3193.jpg');
+		filter: blur(5px); 
+		content: "";
+		z-index: 1;
+}
+	.more h1 {
+		position: relative; 
+		z-index: 2; 
+		margin: 0;
+}
+	.more p{
+		transform: translateX(1000px); 
+}
+	.more:hover p{
+		transform: translateX(0); 
+} 	
+
+	.stack{
+		padding: 10px;
+}
+	.news{ 
+		height: 700px;
+		width: 350px;
+} 
+
+	.news::before {			
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url('https://media.tenor.com/sbfBfp3FeY8AAAAj/oia-uia.gif');
+		filter: blur(5px); 
+		content: "";
+		z-index: 1;
+}
+	.news h1 {
+		position: relative; 
+		z-index: 2; 
+		margin: 0;
+}
+	.news p{
+		transform: translateY(1000px); 
+}
+	.news:hover p{
+		transform: translateY(0); 
+	}
+	a{
+		color: white;
+		transition: all 0.2s ease;
+		text-decoration: none; 
+	}
+	a:visited{
+		color: #e8e9eb;
+		transition: all 0.2s ease;
+	} 
+	a:hover{
+		color: #CCCDC6;
+		text-decoration: underline; 
+		transition: all 0.2s ease;
+	}
+		hr{
+		background-color: gray;
+		height: 1px; 
+		width: 60%
+	}
+	
+	/*___________________________________________________________________________________*/ 
+	
+	.inf{
+		background-image: url('');
+		height: 950px; 
+		box-shadow: 10px 10px 10px gray; 
+		display: flex;
+		align-items: center;
+		justify-content: center; 
+	}
+	
+
+
